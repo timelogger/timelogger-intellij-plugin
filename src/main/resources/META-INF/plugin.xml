@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>org.timelogger.timelogger-intellij-plugin</id>
+    <name>Time Logger</name>
+    <vendor email="support@timelogger.org" url="https://timelogger.org">Time Logger</vendor>
+
+    <description><![CDATA[
+    Time Logger is a way to keep track of the files you work on and how long you work on them.
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
