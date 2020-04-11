@@ -18,4 +18,10 @@
     <actions>
         <!-- Add your actions here -->
     </actions>
+
+    <projectListeners>
+        <listener class="org.timelogger.listener.TouchFileListener" topic="com.intellij.openapi.editor.event.DocumentListener"/>
+
+    </projectListeners>
+    <idea-version since-build="193"/>
 </idea-plugin>
